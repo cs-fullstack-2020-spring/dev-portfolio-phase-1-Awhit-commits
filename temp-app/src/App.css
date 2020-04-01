@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  display: grid;
+  /* grid-template-columns: repeat(11,1fr);
+  grid-template-rows: repeat(10,1fr); */
+}
+.container h1{
+  grid-column: 3/13;
+  grid-row: 1;
+  text-align: center;
+  
+}
+.AboutMe h1,.Education h1,.Projects h1,.Resume h1,.ContactMe h1{
+  text-align: center;
+
+}
+.AboutMe{
+  grid-column: 5/11;
+  grid-row:2;
+}
+.Education{
+  grid-column: 5/11;
+  grid-row: 3;
+}
+.Skills{
+  grid-column: 5/11;
+  grid-row:4;
+}
+.Projects{
+  grid-column: 5/11;
+  grid-row:5;
+  border: 1px solid;
+  
+
+}
+.Projects img{
+  margin: 10px;
+}
+
+
+.Resume{
+  grid-column:5/11 ;
+  grid-row: 6;
+}
+.SideBarLeft{
+  /* border: solid; */
+  grid-row:1/21;
+  grid-column: 1;
+  list-style-type: none;
+  padding: 30px;
+  border-right: solid;
+  
+}
+.ContactMe{
+  grid-column: 5/11;
+  grid-row: 7;
+}
+.SideBarLeft button{
+  
+}
