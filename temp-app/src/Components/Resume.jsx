@@ -5,7 +5,8 @@ export default class Resume extends Component {
     return (
       <div className="Resume">
         <h1>Resume</h1>
-        <iframe src="temp-app/public/GetForm.pdf" frameborder="0"></iframe>
+        <embed src="Resumev4.pdf" width="500" height="375" 
+        type="application/pdf"/>
       </div>
     );
   }
