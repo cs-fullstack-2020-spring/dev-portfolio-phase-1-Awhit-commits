@@ -31,6 +31,7 @@ export default class HomePage extends Component {
 
             </div>
             <Router>
+                <Route exact path ="/" component = {HomePage}/>
                 <Route path ="/Aboutme"><AboutMe/></Route>
                 <Route path = "/Skills"><Skills/></Route>
                 <Education/>
