@@ -17,7 +17,8 @@ export default class HomePage extends Component {
             <div className="container">
                 <h1>A.Whit Development</h1>
                 <div className ="SideBarLeft">
-                
+                    <LeftBar/>
+{/*                 
                 <Router>
                  <li><Link to ="/">Home</Link></li> 
                  <li><Link to ="/Aboutme">About Me</Link> </li>  
@@ -26,24 +27,17 @@ export default class HomePage extends Component {
                  <li><Link to="/Projects">Projects</Link></li> 
                  <li><Link to ="/Resume">Resume</Link></li>
                  <li><Link to ="/Contact">Contact Me</Link> </li>
-                 {/* <Route path ="/Aboutme"><AboutMe/></Route>                        */}
+                 <Route exact path ="/" Component
+                 <Route path ="/Aboutme"><AboutMe/></Route>                       
                 </Router>
+                </div> */}
+                </div>
 
             </div>
-            <Router>
-                <Route exact path ="/" component = {HomePage}/>
-                <Route path ="/Aboutme"><AboutMe/></Route>
-                <Route path = "/Skills"><Skills/></Route>
-                <Education/>
-                <Resume/>
-                <Projects/>
-                {/* <LeftBar/> */}
-                <ContactMe/>
-            </Router>
+            
                
                 
-            </div>
-            
+           
         )
     }
 }
