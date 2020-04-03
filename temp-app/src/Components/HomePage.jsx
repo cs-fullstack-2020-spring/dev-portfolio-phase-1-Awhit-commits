@@ -4,7 +4,7 @@ import Skills from "./Skills";
 import Education from "./Education";
 import Resume from "./Resume";
 import Projects from "./Projects";
-import LeftBar from "./LeftBar";
+// import LeftBar from "./LeftBar";
 import ContactMe from "./ContactMe";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -18,7 +18,7 @@ export default class HomePage extends Component {
           <h1>A.Whit Development</h1>
           <div className="sideBarLeft">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/Aboutme">Home</Link>
             </li>
             <li>
               <Link to="/Aboutme">About Me</Link>{" "}
@@ -40,6 +40,7 @@ export default class HomePage extends Component {
             </li>
             </div>
         <div className ="mainContent">
+          {/* <Route path ='/' component ={AboutMe}/> */}
             <Route path="/Aboutme" component ={AboutMe}/>
             <Route path="/Education" component = {Education}/>
             <Route path ="/Resume" component = {Resume}/>
