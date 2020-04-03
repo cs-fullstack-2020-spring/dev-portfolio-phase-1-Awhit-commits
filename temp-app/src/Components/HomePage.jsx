@@ -15,8 +15,9 @@ export default class HomePage extends Component {
     return (
       <div className="mainContainer">
         <Router>
-          <h1>A.Whit Development</h1>
+          {/* <h1>A.Whit Development</h1> */}
           <div className="sideBarLeft">
+            <p>A. Whit Development</p>
             <li>
               <Link to="/Aboutme">Home</Link>
             </li>
@@ -24,11 +25,11 @@ export default class HomePage extends Component {
               <Link to="/Aboutme">About Me</Link>{" "}
             </li>
             <li>
-              <Link to="/Education">Education</Link>
+              <Link to="/Education">Experience</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/Skills">Skills</Link>{" "}
-            </li>
+            </li> */}
             <li>
               <Link to="/Projects">Projects</Link>
             </li>

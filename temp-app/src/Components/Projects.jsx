@@ -9,7 +9,8 @@ export default class Projects extends Component {
         <h1>Projects</h1>
 
         <CardDeck>
-          <Card bg  ='secondary'>
+          <Card bg  ='secondary'
+          className="shadow-lg p-3 mb-5 bg-grey rounded">
             <Card.Img variant="top" src="/img/Screen Shot 2020-04-03 at 10.40.55 AM.png" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
@@ -29,7 +30,8 @@ export default class Projects extends Component {
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer> */}
           </Card>
-          <Card bg  ='secondary'>
+          <Card bg  ='secondary'
+          className="shadow-lg p-3 mb-5 bg-grey rounded">
             <Card.Img variant="top" src="img/Screen Shot 2020-04-03 at 10.39.28 AM.png" />
             <Card.Body>
               <Card.Title>Pokedex Api</Card.Title>
@@ -47,7 +49,8 @@ export default class Projects extends Component {
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer> */}
           </Card>
-          <Card bg  ='secondary'>
+          <Card bg  ='secondary'
+          className="shadow-lg p-3 mb-5 bg-grey rounded">
             <Card.Img
               
               variant="top"
