@@ -4,9 +4,10 @@ import CardDeck from "react-bootstrap/CardDeck";
 export default class Education extends Component {
   render() {
     return (
-      <div>
+      <div className = "Experience">
         <div className="Education">
-          <h1>Education</h1>
+          <h1>Experience</h1>
+          <h2>Education</h2>
           {/* <ul>
                     <li>Mississippi State University</li>
                     <li>Code Crew's Code School</li>
@@ -28,7 +29,7 @@ export default class Education extends Component {
                   languages such as Python, C, C++. I also scratch the surface
                   in Verilog hardware langauge.
                 </Card.Text>
-                {/* <Card.Link href="#">Card Link</Card.Link> */}
+                <Card.Link href="https://msstate.edu" target = "_blank">Hail State!</Card.Link>
                 {/* <Card.Link href="#">Another Link</Card.Link> */}
               </Card.Body>
             </Card>
@@ -37,25 +38,21 @@ export default class Education extends Component {
               style={{ width: "18rem" }}
             >
               <Card.Body>
-                <Card.Title>Mississippi State University</Card.Title>
+                <Card.Title>Code Crew's Code School</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">
-                  Aug. 2013 - Dec. 2017
+                  Feb. 2020 - Current
                 </Card.Subtitle>
                 <Card.Text>
-                  During my enrollment at Mississippi State University I was
-                  taking up computer science classes in the Bagley College of
-                  Engineering were I was introduced to a few programming
-                  languages such as Python, C, C++. I also scratch the surface
-                  in Verilog hardware langauge.
+                  Six month hands-on program that teaches adults the tools and skills to become an entry level full stack web developer. It's goal to ensure that every graduate has the tool and qualties to become a successful developer in the tech world.
                 </Card.Text>
-                {/* <Card.Link href="#">Card Link</Card.Link> */}
+                <Card.Link href="https://www.code-crew.org/codeschool" target = "_blank">Code School </Card.Link>
                 {/* <Card.Link href="#">Another Link</Card.Link> */}
               </Card.Body>
             </Card>
           </CardDeck>
         </div>
         <div className="Skills">
-          <h1>Skills</h1>
+          <h2>Skills</h2>
           {/* <ul>
                     <li>HTML5</li>
                     <li>CSS</li>

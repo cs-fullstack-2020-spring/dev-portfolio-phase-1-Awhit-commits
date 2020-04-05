@@ -5,6 +5,7 @@ import Card from "react-bootstrap/Card";
 export default class Projects extends Component {
   render() {
     return (
+      
       <div className="Projects">
         <h1>Projects</h1>
 
@@ -13,15 +14,14 @@ export default class Projects extends Component {
           className="shadow-lg p-3 mb-5 bg-grey rounded">
             <Card.Img variant="top" src="/img/Screen Shot 2020-04-03 at 10.40.55 AM.png" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Reflection App</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                A basic introductory ReactJS app that utilizes forums and basic knowledge of JavaScript, CSS, and HTML5.
               </Card.Text>
               <Card.Link
-                className="card-link"
-                href="https://github.com/Awhit-commits/Chat-app"
+                // className="card-link"
+                href="https://github.com/cs-fullstack-2020-spring/reflection-journal-project-phase-1-Awhit-commits"
+                target = "_blank"
               >
                 Github Repo
               </Card.Link>
@@ -34,13 +34,14 @@ export default class Projects extends Component {
           className="shadow-lg p-3 mb-5 bg-grey rounded">
             <Card.Img variant="top" src="img/Screen Shot 2020-04-03 at 10.39.28 AM.png" />
             <Card.Body>
-              <Card.Title>Pokedex Api</Card.Title>
+              <Card.Title>Pokedex API</Card.Title>
               <Card.Text>
                 An introduction to accesing and using an API in ReactJs
               </Card.Text>
               <Card.Link
-                className="card-link"
-                href="https://github.com/Awhit-commits/Chat-app"
+                // className="card-link"
+                href="https://github.com/cs-fullstack-2020-spring/react-fetch-pokemon-Awhit-commits"
+                target="_blank"
               >
                 Github Repo
               </Card.Link>
@@ -65,8 +66,9 @@ export default class Projects extends Component {
                 support the backend.
               </Card.Text>
               <Card.Link
-                className="card-link"
+                // className="card-link"
                 href="https://github.com/Awhit-commits/Chat-app"
+                target = "_blank"
               >
                 Github Repo
               </Card.Link>
