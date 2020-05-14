@@ -15,35 +15,12 @@ export default class HomePage extends Component {
     return (
       <div className="mainContainer">
         <Router>
-          {/* <h1>A.Whit Development</h1> */}
-          <div className="sideBarLeft">
-            <p>A. Whit Development</p>
-            <li>
-              <Link to="/Aboutme">Home</Link>
-            </li>
-            <li>
-              <Link to="/Aboutme">About Me</Link>{" "}
-            </li>
-            <li>
-              <Link to="/Education">Experience</Link>
-            </li>
-            {/* <li>
-              <Link to="/Skills">Skills</Link>{" "}
-            </li> */}
-            <li>
-              <Link to="/Projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/Resume">Resume</Link>
-            </li>
-            <li>
-              <Link to="/Contact">Contact Me</Link>{" "}
-            </li>
-            </div>
+         
+            
         <div className ="mainContent">
           {/* <Route path ='/' component ={AboutMe}/> */}
             <Route path="/Aboutme" component ={AboutMe}/>
-            <Route path="/Education" component = {Education}/>
+            <Route path="/Experience" component = {Education}/>
             <Route path ="/Resume" component = {Resume}/>
             <Route path ="/Contact" component ={ContactMe}/>
             <Route path = "/Skills" component = {Skills}/>

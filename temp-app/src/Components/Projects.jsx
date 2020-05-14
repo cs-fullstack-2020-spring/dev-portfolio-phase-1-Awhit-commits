@@ -12,7 +12,7 @@ export default class Projects extends Component {
         <CardDeck>
           <Card bg  ='secondary'
           className="shadow-lg p-3 mb-5 bg-grey rounded">
-            <Card.Img variant="top" src="/img/Screen Shot 2020-04-03 at 10.40.55 AM.png" />
+            <Card.Img variant="top" src="/img/newshot.png" />
             <Card.Body>
               <Card.Title>Reflection App</Card.Title>
               <Card.Text>
@@ -55,7 +55,7 @@ export default class Projects extends Component {
             <Card.Img
               
               variant="top"
-              src="/img/Project1.png"
+              src="/img/chatapp.png"
             />
             <Card.Body>
               <Card.Title>Chat App</Card.Title>

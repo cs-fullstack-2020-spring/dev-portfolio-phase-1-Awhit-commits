@@ -45,7 +45,7 @@ export default class Education extends Component {
                 <Card.Text>
                   Six month hands-on program that teaches adults the tools and skills to become an entry level full stack web developer. It's goal to ensure that every graduate has the tool and qualties to become a successful developer in the tech world.
                 </Card.Text>
-                <Card.Link href="https://www.code-crew.org/codeschool" target = "_blank">Code School </Card.Link>
+                <Card.Link href="https://www.code-crew.org/codeschool" target = "_blank">CodeSchool </Card.Link>
                 {/* <Card.Link href="#">Another Link</Card.Link> */}
               </Card.Body>
             </Card>
