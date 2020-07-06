@@ -41,7 +41,24 @@
   /* grid-template-columns: repeat(11,1fr);
   grid-template-rows: repeat(10,1fr); */
   /* width: 100px; */
-  /* grid-column: 5/11; */
+  /* gri-column: 5/11; */
+  filter: blur(4px);
+
+
+
+}
+.mainContainer p{
+  /* color: white; */
+}
+
+.backgroundImage{
+  /* background-image: url("./fabian-grohs-PuxTq4DwUHE-unsplash.jpg"); */
+  /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg"); */
+  height: 50vh;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+
 }
 .mainContainer h1{
   /* grid-column: 3/11;
@@ -128,6 +145,10 @@
 .mainContent{
   grid-row: 1; 
   grid-column: 2/11;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .card-img-top {
   width: 100%;

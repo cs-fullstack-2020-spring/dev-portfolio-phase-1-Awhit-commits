@@ -7,17 +7,26 @@ import Projects from "./Projects";
 // import LeftBar from "./LeftBar";
 import ContactMe from "./ContactMe";
 import { BrowserRouter as Router } from "react-router-dom";
-
+import Image from 'react-bootstrap/Image'
 import { Link, Route } from "react-router-dom";
 
 export default class HomePage extends Component {
   render() {
     return (
-      <div className="mainContainer">
+      <div  style={{
+        backgroundImage: `url("./chris-ried-ieic5Tq8YMk-unsplash.jpg")`,color:'white'
+     }}>
+        {/* <Image src = "./chris-ried-ieic5Tq8YMk-unsplash.jpg" fluid/>
+        <p>Hello!</p> */}
+        {/* style={{
+         backgroundImage: `url("https://www.nicesnippets.com/image/imgpsh_fullsize.png")`,backgroundRepeat: 'no-repeat',width:'250px',height:'250px',color:'white'
+      }}> */}
+        Nice Snippets
         <Router>
          
             
         <div className ="mainContent">
+          {/* <img src="./chris-ried-ieic5Tq8YMk-unsplash.jpg" alt=""/> */}
           {/* <Route path ='/' component ={AboutMe}/> */}
             <Route path="/Aboutme" component ={AboutMe}/>
             <Route path="/Experience" component = {Education}/>
