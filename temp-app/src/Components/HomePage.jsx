@@ -6,7 +6,7 @@ import Resume from "./Resume";
 import Projects from "./Projects";
 // import LeftBar from "./LeftBar";
 import ContactMe from "./ContactMe";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Redirect } from "react-router-dom";
 import Image from "react-bootstrap/Image";
 import { Link, Route } from "react-router-dom";
 import SplashPage from "./SplashPage";
@@ -27,38 +27,42 @@ export default class HomePage extends Component {
     console.log(this.state);
   };
   render() {
-    // if (!this.state.entryButton) {
-    //   //  return( <SplashPage getEntryButton = {this.getEntryButton}/>)
-    //   return (
-    //     <div>
-    //       <div className="bg splashPage">
-    //         <div className="splashTextContainer">
-    //           <div className="splashText">
-    //             <p>Hello! I welcome you to my site!</p>
-    //             {/* <p>My name is Andrew Whitmore</p> */}
-    //           </div>
-    //           <div className=" animated animatedFadeInUp fadeInUp">
-    //             <p>
-    //               My name is Andrew Whitmore and I'm a Full-Stack Web Developer
-    //             </p>
-    //           </div>
-    //           <div>
-    //             <a href="/Aboutme">
-    //               {" "}
-    //               <button
-    //                 className="entryBtn default"
-    //                 onClick={this.getEntryButton}
-    //               >
-    //                 View Portfolio
-    //               </button>
-    //             </a>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   );
-    // }
-
+    if (!this.state.entryButton) {
+      //  return( <SplashPage getEntryButton = {this.getEntryButton}/>)
+      return (
+        <div>
+          <Router>
+          <div className="bg splashPage">
+            <div className="splashTextContainer">
+              <div className="splashText">
+                <p>Hello! I welcome you to my site!</p>
+                {/* <p>My name is Andrew Whitmore</p> */}
+              </div>
+              <div className=" animated animatedFadeInUp fadeInUp">
+                <p>
+                  My name is Andrew Whitmore and I'm a Full-Stack Web Developer
+                </p>
+              </div>
+              <div>
+                <Link to = "/Aboutme">
+                  {" "}
+                  <button
+                    className="entryBtn default"
+                    onClick={this.getEntryButton}
+                  >
+                    View Portfolio
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          </Router>
+        </div>
+      );
+    }
+    
+    
+    else if (this.state.entryButton){
     return (
       <div>
         <Router>
@@ -75,6 +79,7 @@ export default class HomePage extends Component {
             <Route path="/Skills" component={Skills} />
             <Route path="/Projects" component={Projects} />
             <Footer />
+            <Redirect to = "/Aboutme"/>
            
           </div>
           
@@ -103,5 +108,6 @@ export default class HomePage extends Component {
        
       </div>
     );
+      }
   }
 }

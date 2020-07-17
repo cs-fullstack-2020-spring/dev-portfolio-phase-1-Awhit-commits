@@ -6,7 +6,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
           <Link to = "/Aboutme" class="navbar-brand">
             Andrew Whitmore Development
           </Link>
@@ -22,13 +22,15 @@ export default class Navbar extends Component {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <Link to = "/Aboutme" className="nav-item nav-link active">
+            <div class="navbar-nav mr-auto">
+              <li className="navbar-item">
+              <Link to = "/Aboutme" className="nav-item nav-link ">
                About Me <span className="sr-only">(current)</span>
-              </Link>
+              </Link></li>
+              <li className="navbar-item">
               <Link to ="/Projects" className="nav-item nav-link">
                 Projects
-              </Link>
+              </Link></li>
               <Link to = "/Experience" className="nav-item nav-link">Experience</Link>
               <Link to = "/Resume" className = "nav-item nav-link">Resume</Link>
               <Link to = "/Contact"className ="nav-item nav-link">Contact</Link>
