@@ -1,13 +1,15 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
+
 
 export default class Navbar extends Component {
   render() {
     return (
       <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-          <a class="navbar-brand" href="/">
+          <Link to = "/Aboutme" class="navbar-brand">
             Andrew Whitmore Development
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -21,15 +23,15 @@ export default class Navbar extends Component {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a className="nav-item nav-link active" href="/Aboutme">
+              <Link to = "/Aboutme" className="nav-item nav-link active">
                About Me <span className="sr-only">(current)</span>
-              </a>
-              <a className="nav-item nav-link" href="/Projects">
+              </Link>
+              <Link to ="/Projects" className="nav-item nav-link">
                 Projects
-              </a>
-              <a className="nav-item nav-link" href = "/Experience">Experience</a>
-              <a className = "nav-item nav-link" href="/Resume">Resume</a>
-              <a className ="nav-item nav-link" href="/Contact">Contact</a>
+              </Link>
+              <Link to = "/Experience" className="nav-item nav-link">Experience</Link>
+              <Link to = "/Resume" className = "nav-item nav-link">Resume</Link>
+              <Link to = "/Contact"className ="nav-item nav-link">Contact</Link>
 
             </div>
           </div>

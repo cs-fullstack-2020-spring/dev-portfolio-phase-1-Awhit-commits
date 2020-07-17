@@ -5,6 +5,7 @@ import HomePage from './Components/HomePage';
 import Navbar from './Components/NavBar';
 // import LeftBar from './Components/LeftBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import SplashPage from './Components/SplashPage';
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
     <div className="">
       
       
-        <Navbar/>
+        {/* <Navbar/> */}
         <HomePage/>
+        {/* <SplashPage/> */}
         {/* <LeftBar/> */}
         
      

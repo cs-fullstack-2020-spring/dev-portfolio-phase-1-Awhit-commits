@@ -10,9 +10,9 @@ export default class Projects extends Component {
         <h1>Projects</h1>
 
         <CardDeck>
-          <Card bg  ='secondary'
+          <Card  bg  ='secondary'
           className="shadow-lg p-3 mb-5 bg-grey rounded">
-            <Card.Img variant="top" src="/img/newshot.png" />
+            <Card.Img top width="100%" variant="top" src="/img/newshot.png" />
             <Card.Body>
               <Card.Title>Reflection App</Card.Title>
               <Card.Text>

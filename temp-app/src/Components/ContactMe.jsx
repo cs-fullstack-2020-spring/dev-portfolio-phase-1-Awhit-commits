@@ -5,7 +5,7 @@ export default class ContactMe extends Component {
         return (
             <div className ="ContactMe">
                 <h1>Contact Me</h1>
-                <p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOUNEFUAMMIdzTxEfl3OSxIqfJ-lPBMb4w-LgrmgeZWZyldQ/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+                <p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOUNEFUAMMIdzTxEfl3OSxIqfJ-lPBMb4w-LgrmgeZWZyldQ/viewform?embedded=true" width="640" height="540" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
                 
             </div>
         )

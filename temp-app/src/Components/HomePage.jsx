@@ -7,36 +7,78 @@ import Projects from "./Projects";
 // import LeftBar from "./LeftBar";
 import ContactMe from "./ContactMe";
 import { BrowserRouter as Router } from "react-router-dom";
-import Image from 'react-bootstrap/Image'
+import Image from "react-bootstrap/Image";
 import { Link, Route } from "react-router-dom";
+import SplashPage from "./SplashPage";
+import Navbar from "./NavBar";
+import Footer from "./Footer";
 
 export default class HomePage extends Component {
-  render() {
-    return (
-      <div  style={{
-        backgroundImage: `url("./chris-ried-ieic5Tq8YMk-unsplash.jpg")`,color:'white'
-     }}>
-        {/* <Image src = "./chris-ried-ieic5Tq8YMk-unsplash.jpg" fluid/>
-        <p>Hello!</p> */}
-        {/* style={{
-         backgroundImage: `url("https://www.nicesnippets.com/image/imgpsh_fullsize.png")`,backgroundRepeat: 'no-repeat',width:'250px',height:'250px',color:'white'
-      }}> */}
-        Nice Snippets
-        <Router>
-         
-            
-        <div className ="mainContent">
-          {/* <img src="./chris-ried-ieic5Tq8YMk-unsplash.jpg" alt=""/> */}
-          {/* <Route path ='/' component ={AboutMe}/> */}
-            <Route path="/Aboutme" component ={AboutMe}/>
-            <Route path="/Experience" component = {Education}/>
-            <Route path ="/Resume" component = {Resume}/>
-            <Route path ="/Contact" component ={ContactMe}/>
-            <Route path = "/Skills" component = {Skills}/>
-            <Route path = "/Projects" component = {Projects}/>
+  constructor(props) {
+    super(props);
 
-        </div>
-        {/* <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    this.state = {
+      entryButton: false,
+    };
+  }
+  getEntryButton = (event) => {
+    event.preventDefault();
+    this.setState({ entryButton: true });
+    console.log(this.state);
+  };
+  render() {
+    // if (!this.state.entryButton) {
+    //   //  return( <SplashPage getEntryButton = {this.getEntryButton}/>)
+    //   return (
+    //     <div>
+    //       <div className="bg splashPage">
+    //         <div className="splashTextContainer">
+    //           <div className="splashText">
+    //             <p>Hello! I welcome you to my site!</p>
+    //             {/* <p>My name is Andrew Whitmore</p> */}
+    //           </div>
+    //           <div className=" animated animatedFadeInUp fadeInUp">
+    //             <p>
+    //               My name is Andrew Whitmore and I'm a Full-Stack Web Developer
+    //             </p>
+    //           </div>
+    //           <div>
+    //             <a href="/Aboutme">
+    //               {" "}
+    //               <button
+    //                 className="entryBtn default"
+    //                 onClick={this.getEntryButton}
+    //               >
+    //                 View Portfolio
+    //               </button>
+    //             </a>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   );
+    // }
+
+    return (
+      <div>
+        <Router>
+          {/* <Route exact path ='/' exact component ={SplashPage}/> */}
+
+          <div className="mainContent">
+            {/* <img src="./chris-ried-ieic5Tq8YMk-unsplash.jpg" alt=""/> */}
+            <Route exact path="/" component={SplashPage} />
+            <Navbar />
+            <Route path="/Aboutme" component={AboutMe} />
+            <Route path="/Experience" component={Education} />
+            <Route path="/Resume" component={Resume} />
+            <Route path="/Contact" component={ContactMe} />
+            <Route path="/Skills" component={Skills} />
+            <Route path="/Projects" component={Projects} />
+            <Footer />
+           
+          </div>
+          
+          {/* <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-interval="10000">
                     <img src="..." class="d-block w-100" alt="..."/>
@@ -57,8 +99,8 @@ export default class HomePage extends Component {
                  <span class="sr-only">Next</span>
             </a>
         </div> */}
-    
         </Router>
+       
       </div>
     );
   }
