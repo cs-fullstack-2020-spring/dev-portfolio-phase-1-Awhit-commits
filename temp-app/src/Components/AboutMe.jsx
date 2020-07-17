@@ -25,7 +25,7 @@ export default class AboutMe extends Component {
               </p>
             </div>
             <div className="aboutMePic img-fluid col-sm">
-            <Image src="IMG_2710.jpg" fluid />
+            <img className ="img-fluid" src="./IMG_2710.jpg" alt=""/>
             </div>
             
           </div>
