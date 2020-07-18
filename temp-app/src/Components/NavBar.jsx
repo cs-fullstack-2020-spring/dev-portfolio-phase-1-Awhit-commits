@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default class Navbar extends Component {
   render() {
     return (
-      <div>
+      <div className = "container-fluid no-padding">
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
           <Link to = "/Aboutme" class="navbar-brand">
             Andrew Whitmore Development

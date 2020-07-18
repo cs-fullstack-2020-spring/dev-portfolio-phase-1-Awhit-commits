@@ -45,25 +45,14 @@
   /* width: 100px; */
   /* gri-column: 5/11; */
   /* filter: blur(4px); */
-  height: auto;
+  /* height: auto; */
 
 
 
 }
 
-.mainContainer p {
-  /* color: white; */
-}
 
-.backgroundImage {
-  /* background-image: url("./fabian-grohs-PuxTq4DwUHE-unsplash.jpg"); */
-  /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg"); */
-  height: 50vh;
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  background-size: contain;
 
-}
 
 .bg {
   background-image: url("/chris-ried-ieic5Tq8YMk-unsplash.jpg");
@@ -74,13 +63,8 @@
 
 }
 
-.mainContainer h1 {
-  /* grid-column: 3/11;
-  grid-row: 1;
-  text-align: center; */
-  /* width: max-content; */
 
-}
+
 
 .AboutMe h1,
 .Education h1,
@@ -99,7 +83,7 @@ h2 {
 }
 .aboutMeBg{
   /* background-image: url("/safar-safarov-MSN8TFhJ0is-unsplash.jpg"); */
-  /* display: flex; */
+
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,14 +98,10 @@ h2 {
 
   font-size: large;
   font-weight: 300;
-  /* grid-column: 5/11;
-  grid-row:2; */
-  /* width: inherit; */
 }
-.aboutMeText{
-  /* width: 50rem */
-  
-}
+ 
+
+
 .aboutMePic img{
   width: auto;
   /* height: auto; */
@@ -154,8 +134,8 @@ h2 {
 }
 
 .Skills {
-  grid-column: 5/11;
-  grid-row: 4;
+  /* grid-column: 5/11;
+  grid-row: 4; */
   /* text-align: center; */
 }
 
@@ -215,9 +195,9 @@ h2 {
 }
 
 .mainContent {
-  grid-row: 1;
-  grid-column: 2/11;
-  height: auto;
+  /* grid-row: 1; */
+  /* grid-column: 2/11; */
+  /* height: auto; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -393,11 +373,20 @@ h2 {
 }
 body{
   background-color: #80A1C1;
+  /* display: flex;  */
+   width: auto;
+  height: 100vh;
+  margin: 0;
 }
 #lab_social_icon_footer {
   padding: 40px 0;
   background-color: #dedede;
   /* height: 20vh; */
+  /* position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  width: 100%;
 }
 
 #lab_social_icon_footer a {
@@ -507,4 +496,15 @@ body{
   -moz-animation-delay: 1s;
   -o-animation-duration:1s;
   animation-delay: 1s;
+}
+.row{
+  width: 100%;
+  
+}
+.container{
+  height: 100vh;
+}
+
+.no-padding{
+  padding: 0 !important;
 }

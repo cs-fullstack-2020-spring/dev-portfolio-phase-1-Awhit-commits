@@ -8,7 +8,7 @@ export default class Footer extends Component {
        <section id="lab_social_icon_footer">
 {/* <!-- Include Font Awesome Stylesheet in Header --> */}
 {/* <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> */}
-<div class="container">
+<div class="container img-fluid">
         <div class="text-center center-block">
                 <a href="https://github.com/Awhit-commits" rel="noopener noreferrer" target = "_blank" ><i id="social-gh" class="fa fa-github-square fa-3x social"></i></a>
 	            <a href="https://twitter.com/AWhitCommits" rel="noopener noreferrer" target ="_blank"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>

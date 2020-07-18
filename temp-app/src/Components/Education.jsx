@@ -4,7 +4,7 @@ import CardDeck from "react-bootstrap/CardDeck";
 export default class Education extends Component {
   render() {
     return (
-      <div className = "Experience">
+      <div className = "Experience container">
         <div className="Education">
           <h1>Experience</h1>
           <h2>Education</h2>
