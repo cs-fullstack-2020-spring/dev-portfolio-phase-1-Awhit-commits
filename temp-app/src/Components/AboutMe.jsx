@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image'
 export default class AboutMe extends Component {
   render() {
     return (
-      <div className="aboutMeBg container img-fluid">
+      <div className="aboutMeBg  img-fluid">
         <div className="AboutMe row  img-fluid">
           <h1>About Me</h1>
           <div className="row">
