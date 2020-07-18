@@ -1,13 +1,17 @@
 .App {
-  text-align: center; }
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none; }
+  pointer-events: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear; } }
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
 
 .App-header {
   background-color: #282c34;
@@ -17,16 +21,22 @@
   /* align-items: center; */
   /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white; }
+  color: white;
+}
 
 .App-link {
-  color: #61dafb; }
+  color: #61dafb;
+}
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
+
   to {
-    transform: rotate(360deg); } }
+    transform: rotate(360deg);
+  }
+}
 
 .mainContainer {
   /* display: grid; */
@@ -35,14 +45,26 @@
   /* width: 100px; */
   /* gri-column: 5/11; */
   /* filter: blur(4px); */
-  /* height: auto; */ }
+  /* height: auto; */
+
+
+
+}
+
+
+
 
 .bg {
   background-image: url("/chris-ried-ieic5Tq8YMk-unsplash.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+
+}
+
+
+
 
 .AboutMe h1,
 .Education h1,
@@ -51,68 +73,87 @@
 .ContactMe h1,
 .Skills h1,
 h2 {
-  text-align: center; }
+  text-align: center;
+
+}
 
 .Education h1 {
   position: relative;
-  /* left: 5%; */ }
-
-.aboutMeBg {
+  /* left: 5%; */
+}
+.aboutMeBg{
   /* background-image: url("/safar-safarov-MSN8TFhJ0is-unsplash.jpg"); */
+
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+
+}
 
 .AboutMe {
   color: white;
   width: 500px;
   height: 100px;
-  font-size: large;
-  font-weight: 300; }
 
-.aboutMePic img {
+  font-size: large;
+  font-weight: 300;
+}
+ 
+
+
+.aboutMePic img{
   width: auto;
   /* height: auto; */
   border-radius: 50%;
   /* position: relative;
   left: 50%;
   top: 20%; */
-  box-shadow: 0 8px 6px -6px black; }
-
-.img-fluid {
+  box-shadow: 0 8px 6px -6px black;
+ 
+}
+.img-fluid{
   width: auto;
   margin: auto;
   object-fit: contain;
-  max-height: auto; }
-
-.aboutMeBtn {
+  max-height: auto;
+}
+.aboutMeBtn{
   display: block;
   text-align: center;
-  box-sizing: border-box; }
-
-.col-sm {
-  width: 300px; }
+  box-sizing: border-box;
+}
+.col-sm{
+  width: 300px;
+}
 
 .Education {
   grid-column: 1/11;
-  grid-row: 1; }
+  grid-row: 1;
+
+}
 
 .Skills {
   /* grid-column: 5/11;
   grid-row: 4; */
-  /* text-align: center; */ }
+  /* text-align: center; */
+}
 
 .Projects {
   /* grid-column: 9/11;
   grid-row:5; */
   /* border: 1px solid; */
   /* width: inherit; */
-  padding: 10%; }
+  padding: 10%;
+
+
+
+}
 
 /* .projectBorder{
   border: 1px solid;
 } */
+
 /* .Project1{
   position: relative;
   
@@ -133,7 +174,8 @@ h2 {
 .Resume {
   /* grid-column:5/11 ;
   grid-row: 6; */
-  text-align: center; }
+  text-align: center;
+}
 
 .sideBarLeft {
   /* border: solid; */
@@ -144,12 +186,14 @@ h2 {
   border-right: solid;
   /* border-bottom: solid; */
   min-height: 100vh;
-  width: max-content; }
+  width: max-content;
+}
 
 .ContactMe {
   /* grid-column: 5/11;
   grid-row: 7; */
-  text-align: center; }
+  text-align: center;
+}
 
 .mainContent {
   /* grid-row: 1; */
@@ -158,42 +202,58 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #80A1C1; }
+  background-color: #80A1C1;
+}
 
 .card-img-top {
   width: 100%;
   height: 40vh;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
 .Education a {
   text-align: center;
-  color: red; }
+  color: red;
+}
 
 .card {
   position: relative;
-  left: 1%; }
+  left: 1%;
+}
 
 .Education .card {
   /* position: relative; */
   /* left: 5%; */
-  /* width: 50px; */ }
+  /* width: 50px; */
+}
 
 .skillBadges {
-  text-align: center; }
+  text-align: center;
+}
 
 .AboutMe p {
-  padding: 30px; }
+  padding: 30px;
+}
 
 .splashPage {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
-  animation-fill-mode: forwards; }
+  animation-fill-mode: forwards;
+
+}
 
 @keyframes fadeInAnimation {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
+
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
+
+
+
 
 .splashText {
   /* animation-delay: 10s; */
@@ -206,51 +266,74 @@ h2 {
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: .10em;
   /* Adjust as needed */
-  animation: typing 6.5s steps(100, end), blink-caret 0.75s step-end infinite; }
+  animation:
+    typing 6.5s steps(100, end),
+    blink-caret .75s step-end infinite;
+}
 
 /* The typing effect */
 @keyframes typing {
   from {
-    width: 0; }
+    width: 0
+  }
+
   to {
-    width: 100%; } }
+    width: 100%
+  }
+}
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
+
   from,
   to {
-    border-color: transparent; }
+    border-color: transparent
+  }
+
   50% {
-    border-color: orange; } }
+    border-color: orange;
+  }
+}
 
 @keyframes fadeInUp {
   from {
-    transform: translate3d(0, 40px, 0); }
+    transform: translate3d(0, 40px, 0)
+  }
+
   to {
     transform: translate3d(0, 0, 0);
-    opacity: 1; } }
+    opacity: 1
+  }
+}
 
 @-webkit-keyframes fadeInUp {
   from {
-    transform: translate3d(0, 40px, 0); }
+    transform: translate3d(0, 40px, 0)
+  }
+
   to {
     transform: translate3d(0, 0, 0);
-    opacity: 1; } }
+    opacity: 1
+  }
+}
 
 .animated {
   animation-delay: 2s;
   animation-duration: 1s;
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
-  -webkit-animation-fill-mode: both; }
+  -webkit-animation-fill-mode: both
+}
 
 .animatedFadeInUp {
-  opacity: 0; }
+  opacity: 0
+}
 
 .fadeInUp {
   opacity: 0;
   animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp; }
+  -webkit-animation-name: fadeInUp;
+}
 
 .entryBtn {
   border: 2px solid black;
@@ -265,31 +348,37 @@ h2 {
   -o-transition: background-color 2s ease-out;
   transition: background-color 2s ease-out;
   position: relative;
-  /* left: 45%; */ }
+
+  /* left: 45%; */
+}
 
 .default {
   border-color: #e7e7e7;
   color: white;
-  /* left: 45%; */ }
+  /* left: 45%; */
+}
 
 .default:hover {
+
   background: #e7e7e7;
-  color: #282c34; }
+  color: #282c34;
+}
 
 .splashTextContainer {
   position: relative;
   top: 30%;
   text-align: center;
   color: white;
-  font-size: 40px; }
+  font-size: 40px;
 
-body {
+}
+body{
   background-color: #80A1C1;
   /* display: flex;  */
-  /* width: auto; */
+   /* width: auto; */
   /* height: 100vh; */
-  /* margin: 0; */ }
-
+  /* margin: 0; */
+}
 #lab_social_icon_footer {
   padding: 40px 0;
   background-color: #dedede;
@@ -298,83 +387,99 @@ body {
   left: 0;
   right: 0;
   bottom: 0; */
-  width: 100%; }
+  width: 100%;
+}
 
 #lab_social_icon_footer a {
-  color: #333; }
+  color: #333;
+}
 
 #lab_social_icon_footer .social:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
-  -o-transform: scale(1.1); }
+  -o-transform: scale(1.1);
+}
 
 #lab_social_icon_footer .social {
   -webkit-transform: scale(0.8);
   /* Browser Variations: */
+  
   -moz-transform: scale(0.8);
   -o-transform: scale(0.8);
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s; }
-
+  -o-transition-duration: 0.5s;
+}
 /*
     Multicoloured Hover Variations
 */
+
 #lab_social_icon_footer #social-fb:hover {
-  color: #3B5998; }
+  color: #3B5998;
+}
 
 #lab_social_icon_footer #social-tw:hover {
-  color: #4099FF; }
+  color: #4099FF;
+}
 
 #lab_social_icon_footer #social-gp:hover {
-  color: #d34836; }
+  color: #d34836;
+}
 
 #lab_social_icon_footer #social-em:hover {
-  color: #f39c12; }
+  color: #f39c12;
+}
 
 /** fadeInLeft **/
+
 @-webkit-keyframes fadeInLeft {
   from {
-    opacity: 0;
-    -webkit-transform: translatex(-10px);
-    -moz-transform: translatex(-10px);
-    -o-transform: translatex(-10px);
-    transform: translatex(-10px); }
+      opacity:0;
+      -webkit-transform: translatex(-10px);
+      -moz-transform: translatex(-10px);
+      -o-transform: translatex(-10px);
+      transform: translatex(-10px);
+  }
   to {
-    opacity: 1;
-    -webkit-transform: translatex(0);
-    -moz-transform: translatex(0);
-    -o-transform: translatex(0);
-    transform: translatex(0); } }
-
+      opacity:1;
+      -webkit-transform: translatex(0);
+      -moz-transform: translatex(0);
+      -o-transform: translatex(0);
+      transform: translatex(0);
+  }
+}
 @-moz-keyframes fadeInLeft {
   from {
-    opacity: 0;
-    -webkit-transform: translatex(-10px);
-    -moz-transform: translatex(-10px);
-    -o-transform: translatex(-10px);
-    transform: translatex(-10px); }
+      opacity:0;
+      -webkit-transform: translatex(-10px);
+      -moz-transform: translatex(-10px);
+      -o-transform: translatex(-10px);
+      transform: translatex(-10px);
+  }
   to {
-    opacity: 1;
-    -webkit-transform: translatex(0);
-    -moz-transform: translatex(0);
-    -o-transform: translatex(0);
-    transform: translatex(0); } }
-
+      opacity:1;
+      -webkit-transform: translatex(0);
+      -moz-transform: translatex(0);
+      -o-transform: translatex(0);
+      transform: translatex(0);
+  }
+}
 @keyframes fadeInLeft {
   from {
-    opacity: 0;
-    -webkit-transform: translatex(-100px);
-    -moz-transform: translatex(-100px);
-    -o-transform: translatex(-100px);
-    transform: translatex(-100px); }
+      opacity:0;
+      -webkit-transform: translatex(-100px);
+      -moz-transform: translatex(-100px);
+      -o-transform: translatex(-100px);
+      transform: translatex(-100px);
+  }
   to {
-    opacity: 1;
-    -webkit-transform: translatex(0);
-    -moz-transform: translatex(0);
-    -o-transform: translatex(0);
-    transform: translatex(0); } }
-
+      opacity:1;
+      -webkit-transform: translatex(0);
+      -moz-transform: translatex(0);
+      -o-transform: translatex(0);
+      transform: translatex(0);
+  }
+}
 .in-left {
   -webkit-animation-name: fadeInLeft;
   -moz-animation-name: fadeInLeft;
@@ -390,16 +495,19 @@ body {
   animation-duration: 1s;
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
-  -o-animation-duration: 1s;
-  animation-delay: 1s; }
-
-.row {
-  width: 100%; }
-
-.container-fluid {
+  -o-animation-duration:1s;
+  animation-delay: 1s;
+}
+.row{
+  width: 100%;
+  
+}
+.container-fluid{
   padding-right: 0;
   padding-left: 0;
-  /* height: 100vh; */ }
+  /* height: 100vh; */
+}
 
-.no-padding {
-  padding: 0 !important; }
+.no-padding{
+  padding: 0 !important;
+}
