@@ -30,7 +30,7 @@ export default class HomePage extends Component {
     if (!this.state.entryButton) {
       //  return( <SplashPage getEntryButton = {this.getEntryButton}/>)
       return (
-        <div className = "">
+        <div className = "mainContainer">
           <Router>
           <div className="bg splashPage">
             <div className="splashTextContainer">

@@ -6,11 +6,11 @@ import Image from 'react-bootstrap/Image'
 export default class AboutMe extends Component {
   render() {
     return (
-      <div className="aboutMeBg img-fluid">
-        <div className="AboutMe  img-fluid">
+      <div className="aboutMeBg container img-fluid">
+        <div className="AboutMe row  img-fluid">
           <h1>About Me</h1>
           <div className="row">
-            <div className="aboutMeText  col-sm in-left">
+            <div className="aboutMeText   col in-left">
               <p>
                 First of all, welcome to my site! Let me introduce myself, my
                 name is Andrew Whitmore and I'm a junior full stack web
@@ -25,12 +25,12 @@ export default class AboutMe extends Component {
                 software developement.
               </p>
             </div>
-            <div className="aboutMePic img-fluid col-sm">
+            <div className="aboutMePic img-fluid col">
             <img className ="img-fluid" src={"../img/IMG_2710.JPG"} alt=""/>
             </div>
             
           </div>
-          <div className="row align-self-center aboutMeBtn">
+          <div className=" align-self-center aboutMeBtn">
             <Link to = "/Projects"><button className ="btn" > Wat to see the cool stuff I've created?</button></Link>
             <Link to = "/Experience"><button className = "btn"> Want to know more about me?</button></Link>  
             </div>

@@ -14,7 +14,7 @@ export default class Education extends Component {
                 </ul> */}
           <CardDeck>
             <Card
-              className="shadow-lg p-3 mb-5 bg-info rounded"
+              className="shadow-lg p-3 mb-5 bg-secondary rounded"
               style={{ width: "18rem" }}
             >
               <Card.Body>
@@ -33,8 +33,8 @@ export default class Education extends Component {
                 {/* <Card.Link href="#">Another Link</Card.Link> */}
               </Card.Body>
             </Card>
-            <Card
-              className="shadow-lg p-3 mb-5 bg-info rounded"
+            <Card bg = 'secondary'
+              className="shadow-lg p-3 mb-5 bg-secondary rounded"
               style={{ width: "18rem" }}
             >
               <Card.Body>
@@ -51,7 +51,7 @@ export default class Education extends Component {
             </Card>
           </CardDeck>
         </div>
-        <div className="Skills">
+        <div className="Skills container">
           <h2>Skills</h2>
           {/* <ul>
                     <li>HTML5</li>
