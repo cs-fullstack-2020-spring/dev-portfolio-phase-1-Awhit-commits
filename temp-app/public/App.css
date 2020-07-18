@@ -104,11 +104,9 @@ h2 {
 
 .aboutMePic img{
   width: auto;
-  /* height: auto; */
+  
   border-radius: 50%;
-  /* position: relative;
-  left: 50%;
-  top: 20%; */
+  
   box-shadow: 0 8px 6px -6px black;
  
 }
@@ -127,17 +125,8 @@ h2 {
   width: 300px;
 }
 
-.Education {
-  grid-column: 1/11;
-  grid-row: 1;
 
-}
 
-.Skills {
-  /* grid-column: 5/11;
-  grid-row: 4; */
-  /* text-align: center; */
-}
 
 .Projects {
   /* grid-column: 9/11;
@@ -150,60 +139,10 @@ h2 {
 
 }
 
-/* .projectBorder{
-  border: 1px solid;
-} */
-
-/* .Project1{
-  position: relative;
-  
-  width: 200px;
-
-}
-.Project2{
-  position:relative;
-  width: 200px;
-}
 
 
 
-.Project3{
-  position: relative;
-  width:200px
-} */
-.Resume {
-  /* grid-column:5/11 ;
-  grid-row: 6; */
-  text-align: center;
-}
 
-.sideBarLeft {
-  /* border: solid; */
-  grid-row: 1/21;
-  /* grid-column: 1/2; */
-  list-style-type: none;
-  padding: 30px;
-  border-right: solid;
-  /* border-bottom: solid; */
-  min-height: 100vh;
-  width: max-content;
-}
-
-.ContactMe {
-  /* grid-column: 5/11;
-  grid-row: 7; */
-  text-align: center;
-}
-
-.mainContent {
-  /* grid-row: 1; */
-  /* grid-column: 2/11; */
-  /* height: auto; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #80A1C1;
-}
 
 .card-img-top {
   width: 100%;
@@ -221,11 +160,7 @@ h2 {
   left: 1%;
 }
 
-.Education .card {
-  /* position: relative; */
-  /* left: 5%; */
-  /* width: 50px; */
-}
+
 
 .skillBadges {
   text-align: center;
@@ -374,19 +309,13 @@ h2 {
 }
 body{
   background-color: #80A1C1;
-  /* display: flex;  */
-   /* width: auto; */
-  /* height: 100vh; */
-  /* margin: 0; */
+ 
+  
 }
 #lab_social_icon_footer {
   padding: 40px 0;
   background-color: #dedede;
-  /* height: 20vh; */
-  /* position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0; */
+  
   width: 100%;
 }
 
@@ -505,7 +434,7 @@ body{
 .container-fluid{
   padding-right: 0;
   padding-left: 0;
-  /* height: 100vh; */
+
 }
 
 .no-padding{
