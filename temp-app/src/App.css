@@ -39,12 +39,13 @@
 }
 
 .mainContainer {
-  display: grid;
+  /* display: grid; */
   /* grid-template-columns: repeat(11,1fr);
   grid-template-rows: repeat(10,1fr); */
   /* width: 100px; */
   /* gri-column: 5/11; */
-  filter: blur(4px);
+  /* filter: blur(4px); */
+  height: auto;
 
 
 
@@ -98,7 +99,7 @@ h2 {
 }
 .aboutMeBg{
   /* background-image: url("/safar-safarov-MSN8TFhJ0is-unsplash.jpg"); */
-  display: flex;
+  /* display: flex; */
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -216,7 +217,7 @@ h2 {
 .mainContent {
   grid-row: 1;
   grid-column: 2/11;
-  /* height: 100vh; */
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -396,6 +397,7 @@ body{
 #lab_social_icon_footer {
   padding: 40px 0;
   background-color: #dedede;
+  /* height: 20vh; */
 }
 
 #lab_social_icon_footer a {
