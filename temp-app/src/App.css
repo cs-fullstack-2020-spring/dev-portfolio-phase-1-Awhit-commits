@@ -1,42 +1,3 @@
-.App {
-  text-align: center; }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none; }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear; } }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  font-size: calc(10px + 2vmin);
-  color: white; }
-
-.App-link {
-  color: #61dafb; }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
-
-.mainContainer {
-  /* display: grid; */
-  /* grid-template-columns: repeat(11,1fr);
-  grid-template-rows: repeat(10,1fr); */
-  /* width: 100px; */
-  /* gri-column: 5/11; */
-  /* filter: blur(4px); */
-  /* height: auto; */ }
-
 .bg {
   background-image: url("/chris-ried-ieic5Tq8YMk-unsplash.jpg");
   height: 100vh;
@@ -94,67 +55,10 @@ h2 {
 .col-sm {
   width: 300px; }
 
-.Education {
-  grid-column: 1/11;
-  grid-row: 1; }
-
-.Skills {
-  /* grid-column: 5/11;
-  grid-row: 4; */
-  /* text-align: center; */ }
-
 .Projects {
-  /* grid-column: 9/11;
-  grid-row:5; */
-  /* border: 1px solid; */
-  /* width: inherit; */
   padding: 10%; }
 
-/* .projectBorder{
-  border: 1px solid;
-} */
-/* .Project1{
-  position: relative;
-  
-  width: 200px;
-
-}
-.Project2{
-  position:relative;
-  width: 200px;
-}
-
-
-
-.Project3{
-  position: relative;
-  width:200px
-} */
-.Resume {
-  /* grid-column:5/11 ;
-  grid-row: 6; */
-  text-align: center; }
-
-.sideBarLeft {
-  /* border: solid; */
-  grid-row: 1/21;
-  /* grid-column: 1/2; */
-  list-style-type: none;
-  padding: 30px;
-  border-right: solid;
-  /* border-bottom: solid; */
-  min-height: 100vh;
-  width: max-content; }
-
-.ContactMe {
-  /* grid-column: 5/11;
-  grid-row: 7; */
-  text-align: center; }
-
 .mainContent {
-  /* grid-row: 1; */
-  /* grid-column: 2/11; */
-  /* height: auto; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -284,20 +188,11 @@ h2 {
   font-size: 40px; }
 
 body {
-  background-color: #80A1C1;
-  /* display: flex;  */
-  /* width: auto; */
-  /* height: 100vh; */
-  /* margin: 0; */ }
+  background-color: #80A1C1; }
 
 #lab_social_icon_footer {
   padding: 40px 0;
   background-color: #dedede;
-  /* height: 20vh; */
-  /* position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0; */
   width: 100%; }
 
 #lab_social_icon_footer a {
