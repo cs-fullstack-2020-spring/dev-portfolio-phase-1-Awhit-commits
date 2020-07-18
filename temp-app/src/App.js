@@ -4,7 +4,7 @@ import './App.css';
 import HomePage from './Components/HomePage';
 import Navbar from './Components/NavBar';
 // import LeftBar from './Components/LeftBar';
-import '../src/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import SplashPage from './Components/SplashPage';
 
 
