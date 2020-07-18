@@ -20,7 +20,7 @@
   
   .aboutMeBg {
     /* background-image: url("/safar-safarov-MSN8TFhJ0is-unsplash.jpg"); */
-    height: 100vh;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -34,7 +34,7 @@
   
   .aboutMePic img {
     width: auto;
-    /* height: auto; */
+    height: auto;
     border-radius: 50%;
     /* position: relative;
     left: 50%;
@@ -187,8 +187,11 @@
     color: white;
     font-size: 40px; }
   
-  body {
-    background-color: #80A1C1; }
+  html,body {
+    background-color: #80A1C1;
+    min-height: 100vh;
+margin: 0; }
+    
   
   #lab_social_icon_footer {
     padding: 40px 0;
