@@ -305,3 +305,7 @@ margin: 0; }
     .Experience{
       min-height: 100vh;
     }
+
+    .Resume{
+        text-align: center;
+    }

@@ -5,7 +5,7 @@ export default class Resume extends Component {
     return (
       <div className="Resume">
         <h1>Resume</h1>
-        <embed src="Resumev4.pdf" width="500" height="640" 
+        <embed src="Andrew_Whitmore_Resume_original.pdf" width="500" height="640" 
         type="application/pdf"/>
       </div>
     );
