@@ -12,6 +12,7 @@ import { Link, Route } from "react-router-dom";
 import SplashPage from "./SplashPage";
 import Navbar from "./NavBar";
 import Footer from "./Footer";
+import NewNavbar from "./NewNavbar";
 
 export default class HomePage extends Component {
   constructor(props) {
@@ -71,7 +72,8 @@ export default class HomePage extends Component {
           <div className="mainContent">
             {/* <img src="./chris-ried-ieic5Tq8YMk-unsplash.jpg" alt=""/> */}
             <Route exact path="/" component={SplashPage} />
-            <Navbar />
+            {/* <Navbar /> */}
+            <NewNavbar/>
             <Route path="/Aboutme" component={AboutMe} />
             <Route path="/Experience" component={Education} />
             <Route path="/Resume" component={Resume} />

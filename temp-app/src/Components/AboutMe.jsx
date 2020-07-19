@@ -31,7 +31,7 @@ export default class AboutMe extends Component {
             
           </div>
           <div className=" align-self-center aboutMeBtn">
-            <Link to = "/Projects"><button className ="btn" > Wat to see the cool stuff I've created?</button></Link>
+            <Link to = "/Projects"><button className ="btn" > Want to see some of the cool things I've created?</button></Link>
             <Link to = "/Experience"><button className = "btn"> Want to know more about me?</button></Link>  
             </div>
         </div>
