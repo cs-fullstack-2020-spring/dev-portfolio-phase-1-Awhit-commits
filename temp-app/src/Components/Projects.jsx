@@ -32,11 +32,11 @@ export default class Projects extends Component {
           </Card>
           <Card bg  ='secondary'
           className="shadow-lg p-3 mb-5 bg-grey rounded">
-            <Card.Img variant="top" src="img/Screen Shot 2020-04-03 at 10.39.28 AM.png" />
+            <Card.Img variant="top" src="img/Pokidex.png" />
             <Card.Body>
               <Card.Title>Pokedex API</Card.Title>
               <Card.Text>
-                An introduction to accesing and using an API in ReactJs
+                An introduction to accessing and using an API in ReactJs
               </Card.Text>
               <Card.Link
                 // className="card-link"
@@ -60,9 +60,9 @@ export default class Projects extends Component {
             <Card.Body>
               <Card.Title>Chat App</Card.Title>
               <Card.Text>
-                A personal fullstack project to introduce myself to backend
-                programming that was written using ReactJS as the basic
-                framework. It includes nodejs,expressjs, and socket.io to
+                A personal project to introduce myself to backend
+                programming that was written using ReactJS as the front-end
+                framework. It includes Node.js, ExpressJs, and socket.io to
                 support the backend.
               </Card.Text>
               <Card.Link
@@ -75,22 +75,87 @@ export default class Projects extends Component {
             </Card.Body>
           </Card>
         </CardDeck>
-        {/* <div className="projectBorder"> */}
-        {/* <div className="Project1"><img src="/img/Project2.png" alt="Chat app" sizes="" srcset="" />
-          <p><a href="https://github.com/Awhit-commits/Chat-app">Chat App</a></p></div>
-           */}
-        {/* <div className="Project1utilites">
-            <ul>
-              Utilizes:
-              <li>NodeJs</li>
-              <li>ReactJs</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>SocketIo</li>
-              <li>ExpressJs</li>
-
-            </ul>
-          </div> */}
+        <CardDeck>
+          <Card  bg  ='secondary'
+          className="shadow-lg p-3 mb-5 bg-grey rounded ">
+            <Card.Img className = "card-img-top" top width="100%" variant="top" src="/img/GetAnEdge.png" />
+            <Card.Body>
+              <Card.Title>Get An Edge</Card.Title>
+              <Card.Text>
+                A Full-stack web application utilizing a MongoDB, ExpressJs, Node.js, ReactJs, and a third-party Fortnite API. The application features a stat tracker for any Fortnite player and a registered user has the ability to create and maintain a friends list. 
+              </Card.Text>
+              <Card.Link
+                // className="card-link"
+                href="https://calm-dawn-53946.herokuapp.com/"
+                target = "_blank"
+              >
+                Check it out!
+              </Card.Link>
+              <Card.Link
+                // className="card-link"
+                href="https://github.com/Awhit-commits/Passion-Project"
+                target = "_blank"
+              >
+                Github Repo
+              </Card.Link>
+            </Card.Body>
+          </Card>
+          <Card bg  ='secondary'
+          className="shadow-lg p-3 mb-5 bg-grey rounded">
+            <Card.Img variant="top" src="img/Trex.png" />
+            <Card.Body>
+              <Card.Title>Trex Logistics</Card.Title>
+              <Card.Text>
+                A full-stack logistics application created along with two other colleagues. It features a client and admin side. The admin side can only be accessed to authorized users. It features ReactJs as the front-end framework, MongoDB as the database, Node.Js and ExpressJs to support the backend. Also utilizes bcrypt.js and JSON Web Tokens (JWT) for authentication and authorization
+              </Card.Text>
+              <Card.Link
+                // className="card-link"
+                href="https://enigmatic-basin-72083.herokuapp.com/"
+                target="_blank"
+              >
+                Check it out!
+              </Card.Link>
+              <Card.Link
+                // className="card-link"
+                href="https://github.com/cs-fullstack-2020-spring/trex-1-team-bam"
+                target="_blank"
+              >
+                Github Repo
+              </Card.Link>
+            </Card.Body>
+            
+          </Card>
+          <Card bg  ='secondary'
+          className="shadow-lg p-3 mb-5 bg-grey rounded">
+            <Card.Img
+              
+              variant="top"
+              src="/img/ExercTracker.png"
+            />
+            <Card.Body>
+              <Card.Title>ExcerTracker</Card.Title>
+              <Card.Text>
+                A basic exercise tracker that was a personal project. It's able to create users and record the description, time, and date. It the first MERN application I created. Utilizes MongoDB, ReactJS, ExpressJs and Node.Js
+              </Card.Text>
+              <Card.Link
+                // className="card-link"
+                href="https://stormy-taiga-50313.herokuapp.com/"
+                target = "_blank"
+              >
+                Check it out!
+              </Card.Link>
+              <Card.Link
+                // className="card-link"
+                href="https://github.com/Awhit-commits/Exercise-Tracker"
+                target = "_blank"
+              >
+                Github Repo
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        </CardDeck>
+       
+       
       </div>
     );
   }
