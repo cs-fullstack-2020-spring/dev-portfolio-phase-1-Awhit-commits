@@ -19,10 +19,10 @@ export default class AboutMe extends Component {
                 technology and how it interacts and operates. As I was getting
                 older, my parents took note of my interest and start enrolling
                 my in tech camps such as Kids-N-Technology that further
-                increased my curiousity and knowledge. As I progressed through
+                increased my curiosity and knowledge. As I progressed through
                 my young adult years, I enrolled at Mississippi State University
                 and took up Computer Science where I would start my journey into
-                software developement.
+                software development.
               </p>
             </div>
             <div className="aboutMePic img-fluid col">
@@ -30,9 +30,9 @@ export default class AboutMe extends Component {
             </div>
             
           </div>
-          <div className=" align-self-center aboutMeBtn">
-            <Link to = "/Projects"><button className ="btn" > Want to see some of the cool things I've created?</button></Link>
-            <Link to = "/Experience"><button className = "btn"> Want to know more about me?</button></Link>  
+          <div className=" align-self-center aboutMeBtnArea">
+            <Link to = "/Projects"><button className =" aboutMeBtn btn btn-primary" > Want to see some of the cool things I've created?</button></Link>
+            <Link to = "/Experience"><button className = " aboutMeBtn btn btn-primary"> Want to know more about me?</button></Link>  
             </div>
         </div>
       </div>

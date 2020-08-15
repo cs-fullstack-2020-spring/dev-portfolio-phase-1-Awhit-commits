@@ -20,8 +20,15 @@ export default class Projects extends Component {
               </Card.Text>
               <Card.Link
                 // className="card-link"
-                href="https://github.com/cs-fullstack-2020-spring/reflection-journal-project-phase-1-Awhit-commits"
-                target = "_blank"
+                href="https://afternoon-basin-73713.herokuapp.com/"
+                target = "_blank" className= "btn btn-primary"
+              >
+                Check it out!
+              </Card.Link>
+              <Card.Link
+                // className="card-link"
+                href="https://github.com/cs-fullstack-2020-spring/reflections-journal-project-3-Awhit-commits"
+                target = "_blank" className= "btn btn-primary"
               >
                 Github Repo
               </Card.Link>
@@ -40,8 +47,15 @@ export default class Projects extends Component {
               </Card.Text>
               <Card.Link
                 // className="card-link"
+                href="https://fierce-bayou-38847.herokuapp.com/"
+                target = "_blank" className= "btn btn-primary"
+              >
+                Check it out!
+              </Card.Link>
+              <Card.Link
+                // className="card-link"
                 href="https://github.com/cs-fullstack-2020-spring/react-fetch-pokemon-Awhit-commits"
-                target="_blank"
+                target="_blank" className= "btn btn-primary"
               >
                 Github Repo
               </Card.Link>
@@ -67,8 +81,15 @@ export default class Projects extends Component {
               </Card.Text>
               <Card.Link
                 // className="card-link"
+                href="https://boiling-waters-12112.herokuapp.com/"
+                target = "_blank" className= "btn btn-primary"
+              >
+                Check it out!
+              </Card.Link>
+              <Card.Link
+                // className="card-link"
                 href="https://github.com/Awhit-commits/Chat-app"
-                target = "_blank"
+                target = "_blank" className= "btn btn-primary"
               >
                 Github Repo
               </Card.Link>
@@ -87,14 +108,14 @@ export default class Projects extends Component {
               <Card.Link
                 // className="card-link"
                 href="https://calm-dawn-53946.herokuapp.com/"
-                target = "_blank"
+                target = "_blank" className= "btn btn-primary"
               >
                 Check it out!
               </Card.Link>
               <Card.Link
                 // className="card-link"
                 href="https://github.com/Awhit-commits/Passion-Project"
-                target = "_blank"
+                target = "_blank" className= "btn btn-primary"
               >
                 Github Repo
               </Card.Link>
@@ -111,14 +132,14 @@ export default class Projects extends Component {
               <Card.Link
                 // className="card-link"
                 href="https://enigmatic-basin-72083.herokuapp.com/"
-                target="_blank"
+                target="_blank" className= "btn btn-primary"
               >
                 Check it out!
               </Card.Link>
               <Card.Link
                 // className="card-link"
                 href="https://github.com/cs-fullstack-2020-spring/trex-1-team-bam"
-                target="_blank"
+                target="_blank" className= "btn btn-primary"
               >
                 Github Repo
               </Card.Link>
@@ -140,14 +161,14 @@ export default class Projects extends Component {
               <Card.Link
                 // className="card-link"
                 href="https://stormy-taiga-50313.herokuapp.com/"
-                target = "_blank"
+                target = "_blank" className= "btn btn-primary"
               >
                 Check it out!
               </Card.Link>
               <Card.Link
                 // className="card-link"
                 href="https://github.com/Awhit-commits/Exercise-Tracker"
-                target = "_blank"
+                target = "_blank" className= "btn btn-primary"
               >
                 Github Repo
               </Card.Link>

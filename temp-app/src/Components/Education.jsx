@@ -5,9 +5,10 @@ export default class Education extends Component {
   render() {
     return (
       <div className = "Experience container">
+        <h1>Experience</h1>
         <div className="Education">
-          <h1>Experience</h1>
-          <h2>Education</h2>
+          
+          {/* <h2>Education</h2> */}
           {/* <ul>
                     <li>Mississippi State University</li>
                     <li>Code Crew's Code School</li>
