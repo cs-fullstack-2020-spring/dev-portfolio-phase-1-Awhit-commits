@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import CardDeck from "react-bootstrap/CardDeck";
 import Card from "react-bootstrap/Card";
+import {Animated} from "react-animated-css"
 
 export default class Projects extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class Projects extends Component {
       
       <div className="Projects">
         <h1>Projects</h1>
+        <Animated animationIn="zoomInDown" animationOut="zoomOutDown" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
 
         <CardDeck>
           <Card  bg  ='secondary'
@@ -96,6 +98,8 @@ export default class Projects extends Component {
             </Card.Body>
           </Card>
         </CardDeck>
+        </Animated>
+        
         <CardDeck>
           <Card  bg  ='secondary'
           className="shadow-lg p-3 mb-5 bg-grey rounded ">

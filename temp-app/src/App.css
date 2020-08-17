@@ -48,8 +48,8 @@ h2 {
 }
 
 .img-fluid {
-  width: auto;
-  margin: auto;
+  /* width: auto; */
+  /* margin: auto; */
   object-fit: contain;
   max-height: auto;
 }
@@ -395,7 +395,14 @@ body {
 .aboutMeBtn{
   margin: 5px;
 }
-.Education{
+.Education,.Skills{
   padding: 10%;
+  
 
 }
+.skillBadges{
+  border: solid;
+  border-radius: 25%;
+  background-blend-mode: darken;
+}
+

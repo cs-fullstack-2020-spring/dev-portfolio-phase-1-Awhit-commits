@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Image from 'react-bootstrap/Image'
+import {Animated} from "react-animated-css";
 // import Mypic from "../../public/IMG_2710.JPG"
 
 export default class AboutMe extends Component {
@@ -25,6 +26,7 @@ export default class AboutMe extends Component {
                 software development.
               </p>
             </div>
+            
             <div className="aboutMePic img-fluid col">
             <img className ="img-fluid" src={"../img/IMG_2710.JPG"} alt=""/>
             </div>
