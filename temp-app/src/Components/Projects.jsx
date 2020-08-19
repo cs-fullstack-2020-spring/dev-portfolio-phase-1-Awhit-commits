@@ -6,10 +6,12 @@ import {Animated} from "react-animated-css"
 export default class Projects extends Component {
   render() {
     return (
-      
-      <div className="Projects">
+      <div className="projectContainer">
         <h1>Projects</h1>
+      
         <Animated animationIn="zoomInDown" animationOut="zoomOutDown" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+      <div className="Projects">
+        
 
         <CardDeck>
           <Card  bg  ='secondary'
@@ -98,7 +100,7 @@ export default class Projects extends Component {
             </Card.Body>
           </Card>
         </CardDeck>
-        </Animated>
+        
         
         <CardDeck>
           <Card  bg  ='secondary'
@@ -181,6 +183,8 @@ export default class Projects extends Component {
         </CardDeck>
        
        
+      </div>
+      </Animated>
       </div>
     );
   }

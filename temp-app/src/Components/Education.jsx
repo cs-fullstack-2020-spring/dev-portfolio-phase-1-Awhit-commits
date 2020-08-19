@@ -92,10 +92,12 @@ export default class Education extends Component {
                     <li>JavaScript</li>
                     <li>ReactJS</li>
                 </ul> */}
-            <div className="skillBadges ">
+            <div className="skillBadgesContainer container ">
            
               {/* <h2>Skills</h2> */}
-              <span>
+              <div className="col">
+
+              <span className = "skillBadge ">
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
                   target="_blank"
@@ -104,7 +106,7 @@ export default class Education extends Component {
                   <img src="/img/iconfinder_html5_682696.png" alt="HTML5" />
                 </a>
               </span>
-              <span>
+              <span  className = "skillBadge">
                 <a
                   href="https://reactjs.org/"
                   target="_blank"
@@ -116,7 +118,7 @@ export default class Education extends Component {
                   />
                 </a>
               </span>
-              <span>
+              <span className = "skillBadge">
                 <a href="https://www.javascript.com/" target = "_blank" rel="noopener noreferrer" >
                   <img
                     src="/img/iconfinder_javascript_682690.png"
@@ -124,29 +126,30 @@ export default class Education extends Component {
                   />
                 </a>
               </span>
-              <span>
+              <span className = "skillBadge">
                 <a href="https://nodejs.org/en/" target = "_blank" rel="noopener noreferrer" >
                   <img src="/img/iconfinder_node_js_682682.png" alt="Node.JS" />
                 </a>
               </span>
+              </div>
           
-              <div className="secondRow">
-              <span>
+              <div className="secondRow ">
+              <span className = "skillBadge">
                 <a href="https://www.apple.com/macos/catalina/" target = "_blank" rel="noopener noreferrer" >
                   <img src="/img/iconfinder_mac_os_337129.png" alt="Mac OS X" />
                 </a>
               </span>
-              <span>
+              <span className = "skillBadge">
                 <a href="https://www.microsoft.com/en-us/windows/" target = "_blank" rel="noopener noreferrer">
                   <img src="/img/iconfinder_windows_337157.png" alt="Microsoft Windows" />
                 </a>
               </span>
-              <span>
+              <span className = "skillBadge">
                 <a href="https://ubuntu.com/" target = "_blank" rel="noopener noreferrer">
                   <img src="/img/iconfinder_ubuntu_337155.png" alt="Ubuntu" />
                 </a>
               </span>
-              <span>
+              <span className = "skillBadge">
                 <a href="https://www.postman.com/" target = "_blank" rel="noopener noreferrer">
                   <img src="/img/iconfinder_postman_4691397.png" alt="Postman" />
                 </a>

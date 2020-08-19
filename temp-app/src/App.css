@@ -400,9 +400,29 @@ body {
   
 
 }
-.skillBadges{
-  border: solid;
-  border-radius: 25%;
+.skillBadgesContainer{
+  /* border: solid; */
+  /* border-radius: 25%; */
   background-blend-mode: darken;
+  padding: 10%;
+  /* background-color: #4099FF; */
+  /* padding: 5%; */
+  /* box-shadow: 0 8px 6px -6px black; */
+
+}
+.secondRow{
+  padding: 5%;
 }
 
+.skillBadge img{
+  /* padding: 5%; */
+    /* box-shadow: 0 8px 6px -6px black; */
+
+  
+}
+
+.projectContainer h1{
+  text-align: center;
+  margin-top:30px;
+  margin-bottom: 30px;
+}
