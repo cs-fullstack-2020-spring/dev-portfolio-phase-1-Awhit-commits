@@ -7,7 +7,7 @@ export default class NewNavbar extends Component {
         return (
             <div>
                 <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-      <a class="navbar-brand" href="/Aboutme">Andrew Whitmore Development</a>
+      <Link class="navbar-brand" to ="/Aboutme">Andrew Whitmore Development</Link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-3" aria-controls="navbarSupportedContent-3" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
